@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="25dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Student Details"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:textColor="#0A0606"
+        android:layout_marginTop="40dp"
+        android:id="@+id/etFullname"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:textColor="#0A0606"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:id="@+id/etAge"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Gender"
+        android:textColor="#0A0606"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/rdoGrp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbMale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:focusable="auto"
+            android:paddingLeft="10dp"
+            android:text="Male"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rbFemale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="auto"
+            android:paddingLeft="10dp"
+            android:text="Female"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rbOthers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="auto"
+            android:paddingLeft="10dp"
+            android:text="Others"
+            android:textSize="20dp" />
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Address"
+        android:textSize="25dp"
+        android:id="@+id/etAddress"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textSize="25dp"
+        android:textColor="#F7F3F3"
+        android:layout_margin="30dp"
+        android:background="@drawable/button_round"
+        android:id="@+id/btnsave">
+    </Button>
+
+</LinearLayout>

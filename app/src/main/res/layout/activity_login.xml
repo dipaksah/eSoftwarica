@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="30dp"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/coventry">
+    </ImageView>
+
+
+    <EditText
+        android:id="@+id/etusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:hint="Username"
+        android:textColor="#0A0101"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/ic_person_add_black_24dp"
+        android:background="@drawable/round_text_field"
+        android:paddingLeft="10dp"
+        android:drawablePadding="15dp"
+        android:textSize="20dp"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+        android:paddingLeft="10dp"
+        android:textColor="#0A0101"
+        android:background="@drawable/round_text_field"
+        android:drawablePadding="15dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="15dp"
+        android:id="@+id/etpassword"
+        android:textSize="20dp">
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="25dp"
+        android:textColor="#F7F3F3"
+        android:layout_margin="30dp"
+        android:background="@drawable/button_round"
+        android:id="@+id/btnlogin">
+    </Button>
+</LinearLayout>
